@@ -1,0 +1,28 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/b1/93/5b/b1935bcfb968fde43955e5c235be6e32.jpg");
+}
+h3{
+    font-size: 30px !important;
+    font-family: cursive;
+    color: darkslateblue;
+}
+.btn-success:hover{
+    background-color: white;
+    color: darkgreen;
+    font-family: cursive;
+    font-size: 20px;
+}
+canvas{
+    border: 10px solid;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{
+        box-shadow: 1px 1px 38px purple;
+    }
+    to{
+        box-shadow: 1px 1px 38px red;
+    }
+}
